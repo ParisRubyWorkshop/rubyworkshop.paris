@@ -19,6 +19,8 @@ class Katas extends Component {
     return(
       <Layout>
         <div>
+        <h1>Katas</h1>
+        <p>Voici la liste des problèmes sur lesquels nous codons pendant les workshops. Il y en a pour tous les gouts!</p>
         <h4>Débutants</h4>
         <p>Pour découvrir le langage:</p>
         <ul>
@@ -57,16 +59,36 @@ class Katas extends Component {
         <h4>Intermédiaires</h4>
         <p>Si vous connaissez déjà les bases et quelques gems:</p>
         <ul>
-          <li><a href="https://github.com/ParisRubyWorkshop/file-to-api-kata">Du fichier à l’api</a>: Faites une api à partir d’un fichier json.</li>
-          <li><a href="https://github.com/livementor/katas/tree/master/filedb">FileDB</a> : Faites une base de données à partir d’un fichier json. Kata réalisé par LiveMentor :D</li>
-          <li><a href="https://github.com/ParisRubyWorkshop/action-cable-example">ActionCableExample</a> : Fabriquez un chat en temps réel avec Action Cable</li>
-          <li><a href="https://github.com/ParisRubyWorkshop/ruby-custom-set">CustomSet</a> : Réimplémentez la classe Set. Ce kata vient de <a href="https://exercism.io">exercism</a> etcomporte une suite de tests qui vous permettra de faire du TDD.</li>
+          <KataListElement
+            repo="ParisRubyWorkshop/file-to-api-kata"
+            name="Du fichier à l’api"
+            description="Faites une api à partir d’un fichier json."
+          />
+          <KataListElement
+            repo="livementor/katas/tree/master/filedb"
+            name="FileDB"
+            description="Faites une base de données à partir d’un fichier json. Kata réalisé par LiveMentor :D"
+          />
+          <KataListElement
+            repo="ParisRubyWorkshop/action-cable-example"
+            name="ActionCableExample"
+            description="Fabriquez un chat en temps réel avec Action Cable"
+          />
+          <KataListElement
+            repo="ParisRubyWorkshop/ruby-custom-set"
+            name="CustomSet"
+            description="Réimplémentez la classe Set."
+          />
         </ul>
 
         <h4>Experts</h4>
         <p>Si vous avez déjà travaillé sur un projet Ruby/Rails en production pendant quelques temps:</p>
         <ul>
-          <li><a href="https://github.com/ParisRubyWorkshop/spec-this-not-that-kata">Spec This Not That</a>: Quelles specs faire tourner sur une grosse suite de tests ?</li>
+          <KataListElement
+            repo="ParisRubyWorkshop/spec-this-not-that-kata"
+            name="Spec This Not That"
+            description="Quelles specs faire tourner sur une grosse suite de tests ?"
+          />
         </ul>
       </div>
       </Layout>
