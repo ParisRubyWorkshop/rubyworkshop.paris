@@ -20,5 +20,6 @@
   background-image: linear-gradient(to bottom, rgb(244,94,83), rgb(231, 87, 78));
 }
 .button:hover {
+  color: rgb(255,253,242);
   background-image: linear-gradient(to bottom, rgb(249,95,84), rgb(244, 94, 83));
 }
