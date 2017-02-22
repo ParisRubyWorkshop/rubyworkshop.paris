@@ -3,6 +3,8 @@ body {
 	width: 100%;
 	margin: 0;
   font-family: 'Arial';
+  color: rgb(25,19,13);
+  background: rgb(255,253,242);
 }
 
 .app {
@@ -13,8 +15,8 @@ body {
 }
 
 .topbar {
-  background-color: black;
-  color: white;
+  background-color: rgb(231, 87, 78);
+  color: rgb(255,253,242);
   width: 100%;
   display: flex;
   align-items: center;
@@ -27,6 +29,4 @@ body {
 	display: flex;
   flex-direction: column;
 }
-
-
 
