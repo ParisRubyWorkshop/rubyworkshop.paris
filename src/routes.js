@@ -1,6 +1,6 @@
 import { Route } from 'react-router';
-import Index from './Index';
+import Landing from './pages/Landing.jsx';
 
 export default (
-    <Route path="/" component={Index} />
+    <Route path="/" component={Landing} />
 );

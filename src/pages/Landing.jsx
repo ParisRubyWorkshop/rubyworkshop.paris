@@ -1,11 +1,12 @@
 import { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './style.css';
+import Layout from '../components/Layout.jsx'
+import s from './Landing.css';
 
 class Landing extends Component {
   render() {
     return(
-      <div>
+      <Layout>
         <div className={s.hero}>
           <h1>Paris Ruby Workshop</h1>
           <p>
@@ -15,7 +16,7 @@ class Landing extends Component {
         </div>
         <div className={s.description}>
         </div>
-      </div>
+      </Layout>
     );
 
   }
