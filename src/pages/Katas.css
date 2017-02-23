@@ -1,10 +1,10 @@
-a {
+.kataLink {
   color: rgb(25,19,13);
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
 }
 
-a:hover {
+.kataLink:hover {
   color: rgb(231, 87, 78);
 }

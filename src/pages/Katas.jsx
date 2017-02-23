@@ -8,7 +8,7 @@ function KataListElement(props) {
   return (
     <li>
       <p>
-        <a href={"https://github.com/" + props.repo}>{props.name}</a> : { props.description }
+        <a className={s.kataLink} href={"https://github.com/" + props.repo}>{props.name}</a> : { props.description }
       </p>
     </li>
   );
