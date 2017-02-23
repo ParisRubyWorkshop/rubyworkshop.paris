@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from 'react-router'
 import Helmet from 'react-helmet';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Layout.css';
@@ -14,7 +15,10 @@ class Layout extends Component {
           ]}
         />
         <div className={s.topbar}>
-          Paris Ruby Workshop
+          <Link to="/">Paris Ruby Workshop</Link>
+          <div className={s.links}>
+            <Link to="/katas">Katas</Link>
+          </div>
         </div>
         <div className={s.content}>
           { this.props.children }
