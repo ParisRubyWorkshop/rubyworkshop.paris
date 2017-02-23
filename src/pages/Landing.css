@@ -3,6 +3,23 @@
   justify-content: center;
   text-align: center;
   min-height: 12em;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  /* align-items: left; */
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.logoimg {
+  height: 100px;
+  width: 100px;
+
 }
 
 .description {
