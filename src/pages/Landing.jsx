@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from 'react-router';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Layout from '../components/Layout.jsx'
 import s from './Landing.css';
@@ -19,10 +20,25 @@ class Landing extends Component {
           <a className={s.button} href="https://www.meetup.com/fr-FR/Paris-Ruby-Workshop">Rejoignez nous sur Meetup</a>
         </div>
         <div className={s.description}>
+          <div className={s.descriptionBlock}>
+            <h3>Qui ?</h3>
+            <p>Le workshop est un espace public ouvert à tout le monde, expert.e.s comme débutant.e.s.</p>
+            <p>Nous voulons en faire un espace inclusif qui accueille tout le monde dans les meilleures conditions. Lisez le <Link to="/code_of_conduct">Code de conduite</Link> avant de participer.</p>
+          </div>
+          <div className={s.descriptionBlock}>
+            <h3>Quand ?</h3>
+            <p>Tous les deuxièmes mercredi du mois, à partir de 19h15.</p>
+            <p>Vous pouvez vous inscrire pour le prochain workshop sur <a href="https://www.meetup.com/fr-FR/Paris-Ruby-Workshop">notre page meetup</a>.</p>
+          </div>
+          <div className={s.descriptionBlock}>
+            <h3>Comment ?</h3>
+            <p>Nous travaillons sur des katas, de petits exercices faisable en à peu près une heure.</p>
+            <p>Tous les katas se font en pairing, c'est-à-dire que deux personnes travaillent ensemble sur un clavier à la fois.</p>
+            <p>Lisez le <Link to="/guidelines">mode d'emploi</Link> pour plus d'infos.</p>
+          </div>
         </div>
       </Layout>
     );
-
   }
 }
 

@@ -18,7 +18,7 @@ class Layout extends Component {
           <Link to="/">Paris Ruby Workshop</Link>
           <div className={s.links}>
             <Link to="/katas">Katas</Link>
-            <Link to="/guidelines">Guidelines</Link>
+            <Link to="/guidelines">Mode d'emploi</Link>
             <Link to="/code_of_conduct">CoC</Link>
           </div>
         </div>

@@ -2,7 +2,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 12em;
+  min-height: 24em;
   display: flex;
   flex-direction: column;
 }
@@ -23,10 +23,26 @@
 }
 
 .description {
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
+
+.descriptionBlock {
+  padding: 2em;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+@media (min-width: 800px) {
+  .descriptionBlock {
+    flex-grow: 1;
+    flex-basis: 33%;
+  }
+}
+
 
 .button {
   color: rgb(255,253,242);
