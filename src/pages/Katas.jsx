@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import Layout from '../components/Layout.jsx'
+import Layout from '../components/Layout.jsx';
+import Link from '../components/Link.jsx';
 import s from './Katas.css';
 
 
@@ -8,7 +9,7 @@ function KataListElement(props) {
   return (
     <li>
       <p>
-        <a className={s.kataLink} href={"https://github.com/" + props.repo}>{props.name}</a> : { props.description }
+        <Link to={"https://github.com/" + props.repo}>{props.name}</Link> : { props.description }
       </p>
     </li>
   );

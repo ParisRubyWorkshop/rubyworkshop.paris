@@ -1,7 +1,7 @@
 import { Component } from 'react';
-import { Link } from 'react-router';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import Layout from '../components/Layout.jsx'
+import Layout from '../components/Layout';
+import Link from '../components/Link';
 import s from './Landing.css';
 import logo from '../assets/logo.png'
 
@@ -28,7 +28,7 @@ class Landing extends Component {
           <div className={s.descriptionBlock}>
             <h3>Quand ?</h3>
             <p>Tous les deuxièmes mercredi du mois, à partir de 19h15.</p>
-            <p>Vous pouvez vous inscrire pour le prochain workshop sur <a href="https://www.meetup.com/fr-FR/Paris-Ruby-Workshop">notre page meetup</a>.</p>
+            <p>Vous pouvez vous inscrire pour le prochain workshop sur <Link to="https://www.meetup.com/fr-FR/Paris-Ruby-Workshop">notre page meetup</Link>.</p>
           </div>
           <div className={s.descriptionBlock}>
             <h3>Comment ?</h3>
