@@ -25,6 +25,11 @@ class Layout extends Component {
         <div className={s.content}>
           { this.props.children }
         </div>
+        <div className={s.footer}>
+          <p>
+            <Link to="https://github.com/ParisRubyWorkshop/rubyworkshop.paris">Fork us on gihub</Link>
+          </p>
+        </div>
       </div>
     );
   }
