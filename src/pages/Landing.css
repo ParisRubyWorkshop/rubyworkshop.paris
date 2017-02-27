@@ -1,25 +1,31 @@
 .hero {
+  width: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
   min-height: 24em;
   display: flex;
   flex-direction: column;
+  background:
+    linear-gradient(
+      rgba(255, 253, 242, 0.35),
+      rgba(255, 253, 242, 0.35)
+    ),
+    url("../assets/photo-workshop.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .logo {
-  /* align-items: left; */
   text-align: left;
   justify-content: center;
   display: flex;
   align-items: center;
-
 }
 
 .logoimg {
   height: 100px;
   width: 100px;
-
 }
 
 .description {
