@@ -1,17 +1,36 @@
+html {
+  min-height: 100%;
+  display: flex;
+}
+
 body {
-	height: 100%;
+  flex-grow: 1;
+	min-height: 100%;
 	width: 100%;
 	margin: 0;
   font-family: 'Arial';
   color: rgb(25,19,13);
   background: rgb(255,253,242);
+  display: flex;
+  flex-direction: column;
+}
+
+body>div {
+  min-height: 100%;
+  display: flex;
+}
+
+div[data-reactroot] {
+  min-height: 100%;
+  flex-grow: 1;
+  display: flex;
 }
 
 .app {
+  min-height: 100%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .topbar {
@@ -37,6 +56,7 @@ body {
 }
 
 .content {
+  flex-grow: 1;
   width: 100%;
 	display: flex;
   flex-direction: column;
@@ -45,6 +65,7 @@ body {
 }
 
 .footer {
+  margin-top: auto;
   color: rgb(168,167,161);
   background-color: rgb(25,19,13);
   width: 100%;
