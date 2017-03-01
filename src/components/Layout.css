@@ -4,10 +4,8 @@ html {
 }
 
 body {
-  flex-grow: 1;
-	min-height: 100%;
-	width: 100%;
-	margin: 0;
+  width: 100%;
+  margin: 0;
   font-family: 'Arial';
   color: rgb(25,19,13);
   background: rgb(255,253,242);
@@ -17,11 +15,11 @@ body {
 
 body>div {
   min-height: 100%;
+  flex-grow: 1;
   display: flex;
 }
 
 div[data-reactroot] {
-  min-height: 100%;
   flex-grow: 1;
   display: flex;
 }
