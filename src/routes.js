@@ -12,3 +12,4 @@ export default (
     <Route path="/code_of_conduct" component={CodeOfConduct} />
   </Router>
 );
+
