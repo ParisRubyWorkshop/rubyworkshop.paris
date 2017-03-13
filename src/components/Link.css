@@ -1,3 +1,7 @@
+:root {
+  --main-color: #EF233C;
+}
+
 .link {
   color: rgb(25,19,13);
   text-decoration: none;
@@ -6,5 +10,5 @@
 }
 
 .link:hover {
-  color: rgb(231, 87, 78);
+  color: var(--main-color);
 }

@@ -1,3 +1,14 @@
+:root {
+  --main-color: #EF233C;
+  --slightly-lighter-main: #F0374D;
+  --lighter-main-color: #F14B5F;
+  --lighter-and-a-half-main: #F35F71;
+  --double-lighter-main-color: #F47382;
+  --alt-white: #EDF2F4;
+  --secondary-color: #8D99AE;
+  --dark-color: #2B2D42;
+}
+
 .hero {
   width: 100%;
   align-items: center;
@@ -8,8 +19,8 @@
   flex-direction: column;
   background:
     linear-gradient(
-      rgba(255, 253, 242, 0.35),
-      rgba(255, 253, 242, 0.35)
+      rgba(255, 255, 255, 0.50),
+      rgba(255, 255, 255, 0.50)
     ),
     url("../assets/photo-workshop.jpeg");
   background-size: 100%;
@@ -49,16 +60,14 @@
   }
 }
 
-
 .button {
-  color: rgb(255,253,242);
+  color: white;
   border-radius: 3px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  background-color: rgb(233, 87, 63);
-  background-image: linear-gradient(to bottom, rgb(244,94,83), rgb(231, 87, 78));
+  background-image: linear-gradient(to bottom, var(--lighter-main-color), var(--main-color));
 }
 .button:hover {
-  color: rgb(255,253,242);
-  background-image: linear-gradient(to bottom, rgb(249,95,84), rgb(244, 94, 83));
+  color: white;
+  background-image: linear-gradient(to bottom, var(--lighter-and-a-half-main), var(--slightly-lighter-main));
 }
