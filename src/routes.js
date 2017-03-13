@@ -3,6 +3,7 @@ import Landing from './pages/Landing.jsx';
 import Katas from './pages/Katas.jsx';
 import Guidelines from './pages/Guidelines.jsx';
 import CodeOfConduct from './pages/CodeOfConduct.jsx';
+import Contributing from './pages/Contributing.jsx';
 
 export default (
   <Router history={browserHistory}>
@@ -10,6 +11,7 @@ export default (
     <Route path="/katas" component={Katas} />
     <Route path="/guidelines" component={Guidelines} />
     <Route path="/code_of_conduct" component={CodeOfConduct} />
+    <Route path="/contributing" component={Contributing} />
   </Router>
 );
 

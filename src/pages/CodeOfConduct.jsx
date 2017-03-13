@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import Link from '../components/Link'
 import s from './CodeOfConduct.css';
 
-const CodeOfConduct =  (props) => (
+const CodeOfConduct = (props) => (
   <Layout>
     <div className={s.codeOfConduct}>
       <h1>Code de conduite du Paris Ruby Workshop</h1>
