@@ -14,9 +14,9 @@ class Landing extends Component {
             <img src={logo} alt="logo" className={s.logoimg} />
             <h1>Paris<br/>Ruby<br/>Workshop</h1>
           </div>
-          <p>
+          <h3>
             Un meetup ouvert à tout le monde, pour monter en compétence sur Ruby en pratiquant ensemble.
-          </p>
+          </h3>
           <a className={s.button} href="https://www.meetup.com/fr-FR/Paris-Ruby-Workshop">Rejoignez nous sur Meetup</a>
         </div>
         <div className={s.description}>
