@@ -65,9 +65,9 @@
   border-radius: 3px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  background-image: linear-gradient(to bottom, var(--lighter-main-color), var(--main-color));
+  background: linear-gradient(to bottom, var(--lighter-main-color), var(--main-color));
 }
 .button:hover {
   color: white;
-  background-image: linear-gradient(to bottom, var(--lighter-and-a-half-main), var(--slightly-lighter-main));
+  background: linear-gradient(to bottom, var(--lighter-and-a-half-main), var(--slightly-lighter-main));
 }
