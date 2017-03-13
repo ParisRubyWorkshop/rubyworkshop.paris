@@ -31,7 +31,7 @@ class Layout extends Component {
             <Link to="/katas">Katas</Link>
             <Link to="/guidelines">Mode d'emploi</Link>
             <Link to="/code_of_conduct">CoC</Link>
-            <Link to="/contribute">Contribuer</Link>
+            <Link to="/contributing">Contribuer</Link>
           </div>
         </div>
         <div className={s.content}>
