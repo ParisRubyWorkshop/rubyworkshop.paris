@@ -37,7 +37,6 @@ class Landing extends Component {
             <h3>Comment ?</h3>
             <p>Nous travaillons sur des katas, de petits exercices faisable en à peu près une heure.</p>
             <p>Tous les katas se font en pairing, c'est-à-dire que deux personnes travaillent ensemble sur un clavier à la fois.</p>
-            <p>Lisez le <Link to="/guidelines">mode d'emploi</Link> pour plus d'infos.</p>
           </div>
           <div className={s.katas}>
             <Katas/>
