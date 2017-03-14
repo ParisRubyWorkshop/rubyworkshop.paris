@@ -18,8 +18,7 @@ function KataListElement(props) {
 class Katas extends Component {
   render() {
     return(
-      <Layout>
-        <div>
+      <div className={s.katas}>
         <h1>Katas</h1>
         <p>Voici la liste des problèmes sur lesquels nous codons pendant les workshops. Il y en a pour tous les gouts!</p>
         <h4>Débutants</h4>
@@ -92,7 +91,6 @@ class Katas extends Component {
           />
         </ul>
       </div>
-      </Layout>
     );
 
   }

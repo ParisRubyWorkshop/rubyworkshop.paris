@@ -60,6 +60,26 @@
   }
 }
 
+.katas {
+  width: 100%;
+  background-color: #EDF2F4;
+  display: flex;
+  justify-content: center;
+}
+
+.guidelines {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomTag {
+  width: 100%;
+  background-color: #EDF2F4;
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   color: white;
   border-radius: 3px;

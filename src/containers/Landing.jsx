@@ -2,8 +2,11 @@ import { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Layout from '../components/Layout';
 import Link from '../components/Link';
+import Katas from './Katas';
+import Guidelines from './Guidelines';
 import s from './Landing.css';
 import logo from '../assets/logo.png'
+
 
 class Landing extends Component {
   render() {
@@ -17,7 +20,7 @@ class Landing extends Component {
           <h3>
             Un meetup ouvert à tout le monde, pour monter en compétence sur Ruby en pratiquant ensemble.
           </h3>
-          <a className={s.button} href="https://www.meetup.com/fr-FR/Paris-Ruby-Workshop">Rejoignez nous sur Meetup</a>
+          <a className={s.button} href="https://www.meetup.com/fr-FR/Paris-Ruby-Workshop">Rejoignez-nous sur Meetup</a>
         </div>
         <div className={s.description}>
           <div className={s.descriptionBlock}>
@@ -35,6 +38,15 @@ class Landing extends Component {
             <p>Nous travaillons sur des katas, de petits exercices faisable en à peu près une heure.</p>
             <p>Tous les katas se font en pairing, c'est-à-dire que deux personnes travaillent ensemble sur un clavier à la fois.</p>
             <p>Lisez le <Link to="/guidelines">mode d'emploi</Link> pour plus d'infos.</p>
+          </div>
+          <div className={s.katas}>
+            <Katas/>
+          </div>
+          <Guidelines/>
+          <div className={s.bottomTag}>
+            <h3>
+              Happy coding!
+            </h3>
           </div>
         </div>
       </Layout>

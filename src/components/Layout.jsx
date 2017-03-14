@@ -28,9 +28,7 @@ class Layout extends Component {
         <div className={s.topbar}>
           <Link to="/">Paris Ruby Workshop</Link>
           <div className={s.links}>
-            <Link to="/katas">Katas</Link>
-            <Link to="/guidelines">Mode d'emploi</Link>
-            <Link to="/code_of_conduct">CoC</Link>
+            <Link to="/code_of_conduct">Code of Conduct</Link>
             <Link to="/contributing">Contribuer</Link>
           </div>
         </div>
@@ -39,7 +37,7 @@ class Layout extends Component {
         </div>
         <div className={s.footer}>
           <p>
-            <a href="https://github.com/ParisRubyWorkshop/rubyworkshop.paris">Fork us on gihub!</a>
+            <a href="https://github.com/ParisRubyWorkshop/rubyworkshopparis.org">Fork us on gihub!</a>
           </p>
         </div>
       </div>

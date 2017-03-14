@@ -6,7 +6,7 @@ import s from './Guidelines.css';
 class Guidelines extends Component {
   render() {
     return(
-      <Layout>
+      <div className={s.guidelines}>
         <h1>Mode d'emploi</h1>
           Le workshop vient de commencer, et vous venez de trouver quelqu'un avec qui coder ? Super ! Voici les étapes suivantes pour commencer le workshop :
         <ul>
@@ -18,9 +18,7 @@ class Guidelines extends Component {
           <li><p>Au bout de 10 minutes, faites un commit, pushez, et échangez de rôle. Celle ou celui qui codait ferme son laptop, l'autre pull le repo et continue de coder.</p></li>
           <li><p>Echangez environ toutes les dix minutes, jusqu'à ce que vous soyez satisfaits du résultat. :-)</p></li>
         </ul>
-
-
-      </Layout>
+      </div>
     );
   }
 }

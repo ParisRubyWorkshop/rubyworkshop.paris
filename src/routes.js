@@ -1,15 +1,13 @@
 import { Route, Router, browserHistory } from 'react-router';
-import Landing from './pages/Landing.jsx';
-import Katas from './pages/Katas.jsx';
-import Guidelines from './pages/Guidelines.jsx';
-import CodeOfConduct from './pages/CodeOfConduct.jsx';
-import Contributing from './pages/Contributing.jsx';
+import Landing from './containers/Landing.jsx';
+import Katas from './containers/Katas.jsx';
+import Guidelines from './containers/Guidelines.jsx';
+import CodeOfConduct from './containers/CodeOfConduct.jsx';
+import Contributing from './containers/Contributing.jsx';
 
 export default (
   <Router history={browserHistory}>
     <Route path="/" component={Landing} />
-    <Route path="/katas" component={Katas} />
-    <Route path="/guidelines" component={Guidelines} />
     <Route path="/code_of_conduct" component={CodeOfConduct} />
     <Route path="/contributing" component={Contributing} />
   </Router>
