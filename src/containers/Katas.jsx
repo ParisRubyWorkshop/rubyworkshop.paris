@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Layout from '../components/Layout.jsx';
-import Link from '../components/Link.jsx';
+import OutLink from '../components/OutLink.jsx';
 import s from './Katas.css';
 
 
@@ -9,7 +9,7 @@ function KataListElement(props) {
   return (
     <li>
       <p>
-        <Link to={"https://github.com/" + props.repo}>{props.name}</Link> : { props.description }
+        <OutLink to={"https://github.com/" + props.repo}>{props.name}</OutLink> : { props.description }
       </p>
     </li>
   );
