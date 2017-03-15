@@ -54,11 +54,26 @@ class Katas extends Component {
             name="Robot Simulator"
             description="Un petit robot qui se déplace en fonction des instructions qu’on lui donne."
           />
+          <KataListElement
+            repo="fluency-in/ruby-rna-transcription"
+            name="RNA Transcription"
+            description="Pour traduire des brins d'ADN"
+          />
+          <KataListElement
+            repo="fluency-in/ruby-roman-numerals"
+            name="Chiffres romains"
+            description="Afficher des nombres en chiffres romains"
+          />
         </ul>
 
         <h4>Intermédiaires</h4>
         <p>Si vous connaissez déjà les bases et quelques gems:</p>
         <ul>
+          <KataListElement
+            repo="ParisRubyWorkshop/sinatra-api"
+            name="Sinatra API"
+            description="Une petite api json avec Sinatra, similaire à File to Api"
+          />
           <KataListElement
             repo="ParisRubyWorkshop/file-to-api-kata"
             name="Du fichier à l’api"
@@ -75,14 +90,24 @@ class Katas extends Component {
             description="Fabriquez un chat en temps réel avec Action Cable"
           />
           <KataListElement
+            repo="fluency-in/ruby-accumulate"
+            name="Accumulate"
+            description="Réimplémentez l'opération accumulate."
+          />
+          <KataListElement
             repo="ParisRubyWorkshop/ruby-custom-set"
             name="CustomSet"
             description="Réimplémentez la classe Set."
           />
+          <KataListElement
+            repo="ParisRubyWorkshop/sidepunch"
+            name="Sidepunch"
+            description="Comprenez les background jobs en implémentant un clone de Sidekiq"
+          />
         </ul>
 
         <h4>Experts</h4>
-        <p>Si vous avez déjà travaillé sur un projet Ruby/Rails en production pendant quelques temps:</p>
+        <p>Si vous avez déjà travaillé sur un projet Ruby/Rails en production:</p>
         <ul>
           <KataListElement
             repo="ParisRubyWorkshop/spec-this-not-that-kata"
@@ -92,7 +117,6 @@ class Katas extends Component {
         </ul>
       </div>
     );
-
   }
 }
 
