@@ -100,7 +100,7 @@ class Katas extends Component {
             description="Réimplémentez la classe Set."
           />
           <KataListElement
-            repo="ParisRubyWorkshop/sidepunch"
+            repo="valgayres/sidepunch"
             name="Sidepunch"
             description="Comprenez les background jobs en implémentant un clone de Sidekiq"
           />
