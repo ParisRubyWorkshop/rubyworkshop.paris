@@ -5,7 +5,6 @@
   "author": "Victor Mours <victor@ahaoho.io> (https://github.com/victormours)",
   "keywords": [],
   "dependencies": {
-    "async-props": "^0.3.2",
     "isomorphic-style-loader": "^1.0.0",
     "react": "^15.3.1",
     "react-helmet": "^3.1.0",
