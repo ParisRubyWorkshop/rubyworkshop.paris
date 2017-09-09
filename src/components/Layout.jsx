@@ -37,7 +37,7 @@ class Layout extends Component {
         </div>
         <div className={s.footer}>
           <p>
-            <a href="https://github.com/ParisRubyWorkshop/rubyworkshopparis.org">Fork us on gihub!</a>
+            <a href="https://github.com/ParisRubyWorkshop/parisrubyworkshop.org">Fork us on gihub!</a>
           </p>
         </div>
       </div>
