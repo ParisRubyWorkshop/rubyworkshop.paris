@@ -1,5 +1,9 @@
 .katas {
+  max-width: 740px;
+  padding-left: 1em;
+  padding-right: 1em;
   padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 .kata_list {

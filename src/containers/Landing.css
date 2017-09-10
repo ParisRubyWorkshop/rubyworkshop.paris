@@ -66,9 +66,8 @@
   display: flex;
   justify-content: center;
 }
-
 .guidelines {
-  max-width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }

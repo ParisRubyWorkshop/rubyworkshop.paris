@@ -41,7 +41,9 @@ class Landing extends Component {
           <div className={s.katas}>
             <Katas/>
           </div>
-          <Guidelines/>
+          <div className={s.guidelines}>
+            <Guidelines/>
+          </div>
           <div className={s.bottomTag}>
             <h3>
               Happy coding!
