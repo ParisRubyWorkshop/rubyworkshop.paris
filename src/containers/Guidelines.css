@@ -5,3 +5,22 @@
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+.to_do_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.button {
+  color: white;
+  border-radius: 3px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background: red;
+}
+.button:hover {
+  color: grey;
+  /*background: linear-gradient(to bottom, var(--lighter-and-a-half-main), var(--slightly-lighter-main));*/
+}
