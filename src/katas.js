@@ -59,6 +59,11 @@ export default {
       description: 'Faites une base de données à partir d’un fichier json. Kata réalisé par LiveMentor :D',
     },
     {
+      repo: 'fluency-in/ruby-binary-search-tree',
+      name: 'Binary Tree',
+      description: 'Insérez et cherchez dans un arbre binaire, une structure de donnée très utilisée à bas niveau.',
+    },
+    {
       repo: 'ParisRubyWorkshop/action-cable-example',
       name: 'ActionCableExample',
       description: 'Fabriquez un chat en temps réel avec Action Cable',
