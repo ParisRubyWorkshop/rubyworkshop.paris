@@ -4,7 +4,7 @@ export default {
     {
       repo: 'ParisRubyWorkshop/ruby-beer-song',
       name: '99 Bottles',
-      description: 'Ecrire la chanson. =)',
+      description: 'Ecrire la chanson (en TDD). =)',
     },
     {
       repo: 'ParisRubyWorkshop/cryptographer',
@@ -17,9 +17,9 @@ export default {
       description: 'Faire du tri à bulle.',
     },
     {
-      repo: 'ParisRubyWorkshop/grandma',
-      name: 'Grandma',
-      description: 'Pour vous familiariser avec les bases de la syntaxe',
+      repo: 'ParisRubyWorkshop/ruby-bob',
+      name: 'Bob',
+      description: 'Pour vous familiariser avec les bases de la syntaxe, en faisant du TDD',
     },
     {
       repo: 'ParisRubyWorkshop/ruby-exercises',
