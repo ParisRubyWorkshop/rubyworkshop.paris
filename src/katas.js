@@ -12,6 +12,11 @@ export default {
       description: 'Ecrire le ROT-13.',
     },
     {
+      repo: 'fluency-in/ruby-accumulate',
+      name: 'Accumulate',
+      description: "Réimplémentez l'équivalent de Array#map",
+    },
+    {
       repo: 'ParisRubyWorkshop/bubble_sort',
       name: 'Bubble Sort',
       description: 'Faire du tri à bulle.',
@@ -67,11 +72,6 @@ export default {
       repo: 'ParisRubyWorkshop/action-cable-example',
       name: 'ActionCableExample',
       description: 'Fabriquez un chat en temps réel avec Action Cable',
-    },
-    {
-      repo: 'fluency-in/ruby-accumulate',
-      name: 'Accumulate',
-      description: "Réimplémentez l'opération accumulate.",
     },
     {
       repo: 'ParisRubyWorkshop/ruby-custom-set',
