@@ -83,6 +83,11 @@ export default {
       name: 'Sidepunch',
       description: 'Comprenez les background jobs en implémentant un clone de Sidekiq',
     },
+    {
+      repo: 'ParisRubyWorkshop/flashcards',
+      name: 'Flashcards',
+      description: 'Dans ce projet, vous écrirez un programme flashcard qui sera utilisé via la ligne de commande. Un utilisateur pourra voir les questions, deviner et voir un score final à la fin du tour.',
+    },
   ],
   expert: [
     {
