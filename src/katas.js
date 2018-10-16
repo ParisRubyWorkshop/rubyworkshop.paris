@@ -54,6 +54,11 @@ export default {
       description: 'Une petite api json avec Sinatra, similaire à File to Api',
     },
     {
+      repo: 'williampollet/ruby_guilded_rose',
+      name: 'Guilded Rose',
+      description: 'Oserez vous améliorer l\'algorithme de Leeroy?',
+    },
+    {
       repo: 'ParisRubyWorkshop/file-to-api-kata',
       name: 'Du fichier à l’api',
       description: 'Faites une api à partir d’un fichier json.',
