@@ -2,6 +2,11 @@
 export default {
   beginner: [
     {
+      repo: 'ParisRubyWorkshop/algo-structures',
+      name: 'Algorithmie et Structures de données',
+      description: 'de l\'algorithmie et de la bonne utilisation des structures de données à travers de petits problèmes',
+    },
+    {
       repo: 'ParisRubyWorkshop/ruby-beer-song',
       name: '99 Bottles',
       description: 'Ecrire la chanson. =)',
