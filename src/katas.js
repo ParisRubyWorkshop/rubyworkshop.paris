@@ -51,6 +51,11 @@ export default {
       name: 'Chiffres romains',
       description: 'Afficher des nombres en chiffres romains',
     },
+    {
+      repo: 'ParisRubyWorkshop/change-making',
+      name: 'Change-Making problem/Rendu de monnaie',
+      description: 'faire de la monnaie avec le moins de pièces possible',
+    },
   ],
   intermediate: [
     {
