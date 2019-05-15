@@ -64,6 +64,11 @@ export default {
       description: 'Une petite api json avec Sinatra, similaire à File to Api',
     },
     {
+      repo: 'williampollet/yaml_to_json_kata',
+      name: 'Yaml to JSON',
+      description: 'transformer un format de traduction yaml en json',
+    },
+    {
       repo: 'williampollet/ruby_guilded_rose',
       name: 'Guilded Rose',
       description: 'Oserez vous améliorer l\'algorithme de Leeroy?',
