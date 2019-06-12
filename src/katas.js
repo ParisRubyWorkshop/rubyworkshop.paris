@@ -12,6 +12,11 @@ export default {
       description: 'Ecrire la chanson (en TDD). =)',
     },
     {
+      repo: 'ParisRubyWorkshop/around_yaml_to_json',
+      name: 'Autour du sujet YAML to JSON',
+      description: 'des Hash et de la récursivité à tous les étages!',
+    },
+    {
       repo: 'ParisRubyWorkshop/cryptographer',
       name: 'Cryptographer',
       description: 'Ecrire le ROT-13.',
