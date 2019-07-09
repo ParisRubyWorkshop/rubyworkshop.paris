@@ -61,6 +61,11 @@ export default {
       name: 'Change-Making problem/Rendu de monnaie',
       description: 'faire de la monnaie avec le moins de pièces possible',
     },
+    {
+      repo: 'quarkgluant/Refacto_gilded-rose',
+      name: 'Gilded Rose refacto',
+      description: 'un classique (le kata Gilded Rose), refactoriser un code legacy et écrire des tests',
+    },
   ],
   intermediate: [
     {
