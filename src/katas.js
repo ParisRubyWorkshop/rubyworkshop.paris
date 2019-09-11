@@ -123,7 +123,7 @@ export default {
     {
       repo: 'williampollet/game-of-life',
       name: 'The game of life',
-      description: 'Why not build a game of life in ruby ?',
+      description: 'Why not build a game of life in ruby?',
     },
     {
       repo: 'ParisRubyWorkshop/spec-this-not-that-kata',
