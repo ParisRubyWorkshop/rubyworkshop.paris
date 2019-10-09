@@ -66,7 +66,12 @@ export default {
       name: 'Nom d\'un robot',
       description: 'Kata court et instructif sur l\'utilisation de variables et méthodes de classe vs celles d\'instance',
     },
-  ],
+    {
+      repo: 'quarkgluant/equation-litteraire',
+      name: 'Equations littéraires/alphamétiques',
+      description: 'résoudre des puzzles alphametiques, en utilisant les capacités de métaprogrammation de Ruby',
+    },
+    ],
   intermediate: [
     {
       repo: 'ParisRubyWorkshop/sinatra-api',
