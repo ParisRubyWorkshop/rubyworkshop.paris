@@ -71,7 +71,7 @@ export default {
       name: 'Equations littéraires/alphamétiques',
       description: 'résoudre des puzzles alphametiques, en utilisant les capacités de métaprogrammation de Ruby',
     },
-    ],
+  ],
   intermediate: [
     {
       repo: 'ParisRubyWorkshop/sinatra-api',
