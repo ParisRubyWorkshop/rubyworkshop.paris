@@ -61,6 +61,11 @@ export default {
       name: 'Change-Making problem/Rendu de monnaie',
       description: 'faire de la monnaie avec le moins de pièces possible',
     },
+    {
+      repo: 'quarkgluant/nom_d_un_robot',
+      name: 'Nom d\'un robot',
+      description: 'Kata court et instructif sur l\'utilisation de variables et méthodes de classe vs celles d\'instance',
+    },
   ],
   intermediate: [
     {
