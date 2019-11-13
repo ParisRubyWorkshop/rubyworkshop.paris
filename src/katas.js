@@ -71,6 +71,11 @@ export default {
       name: 'Equations littéraires/alphamétiques',
       description: 'résoudre des puzzles alphametiques, en utilisant les capacités de métaprogrammation de Ruby',
     },
+    {
+      repo: 'ParisRubyWorkshop/ActiveRecord_like',
+      name: 'ActiveRecord_like methods on PORO',
+      description: 'créons sur des PORO (Plain Old Ruby Object) des méthodes comme celles d\'ActiveRecord: id, find et find_by_nom_d_attribut',
+    },
   ],
   intermediate: [
     {
