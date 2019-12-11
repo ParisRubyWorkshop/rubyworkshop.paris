@@ -76,6 +76,11 @@ export default {
       name: 'ActiveRecord_like methods on PORO',
       description: 'créons sur des PORO (Plain Old Ruby Object) des méthodes comme celles d\'ActiveRecord: id, find et find_by_nom_d_attribut',
     },
+    {
+      repo: 'quarkgluant/points-selles',
+      name: 'Trouver les points-selles d\'une matrice',
+      description: 'Trouver pour n\'importe quelle matrice donnée son ou ses points-selles, ou points minimax (saddle points)',
+    },
   ],
   intermediate: [
     {
