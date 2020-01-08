@@ -81,6 +81,11 @@ export default {
       name: 'Trouver les points-selles d\'une matrice',
       description: 'Trouver pour n\'importe quelle matrice donnée son ou ses points-selles, ou points minimax (saddle points)',
     },
+    {
+      repo: 'quarkgluant/luhn',
+      name: 'Vérifier si un numéro de Carte Bleue, de SIRET ou d\'IMEI est valide',
+      description: 'Si vous vous êtes toujours demandé comment un site vérifiait la validité d\'une carte bleue, ce kata (et l\'algo de Luhn) est pour vous',
+    },
   ],
   intermediate: [
     {
