@@ -86,6 +86,11 @@ export default {
       name: 'Vérifier si un numéro de Carte Bleue, de SIRET ou d\'IMEI est valide',
       description: 'Si vous vous êtes toujours demandé comment un site vérifiait la validité d\'une carte bleue, ce kata (et l\'algo de Luhn) est pour vous',
     },
+    {
+      repo: 'quarkgluant/jeux-de-mollets',
+      name: 'Trouver la plus longue sous-chaine qui se répète et mots affichés avec boucle/noeud',
+      description: '2 katas sur des manip des chaînes avec utilisation de REGEX',
+    },
   ],
   intermediate: [
     {
