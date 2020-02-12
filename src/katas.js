@@ -88,8 +88,8 @@ export default {
     },
     {
       repo: 'quarkgluant/jeux-de-mollets',
-      name: 'Trouver la plus longue sous-chaine qui se répète et mots affichés avec boucle/noeud',
-      description: '2 katas sur des manip des chaînes avec utilisation de REGEX',
+      name: 'Trouver la plus longue sous-chaine qui se répète',
+      description: 'Trouver parmi une chaîne donnée la plus longue séquence de caractères qui est en double',
     },
   ],
   intermediate: [
