@@ -91,6 +91,11 @@ export default {
       name: 'Trouver la plus longue sous-chaine qui se répète',
       description: 'Trouver parmi une chaîne donnée la plus longue séquence de caractères qui est en double',
     },
+    {
+      repo: 'quarkgluant/sudoku',
+      name: 'Déterminer si une grille de Sudoku donnée et remplie est valide',
+      description: 'Un grand classique, déterminer si une grille de Sudoku remplie est valide ou pas',
+    },
   ],
   intermediate: [
     {
