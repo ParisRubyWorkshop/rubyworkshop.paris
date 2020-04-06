@@ -96,6 +96,11 @@ export default {
       name: 'Déterminer si une grille de Sudoku donnée et remplie est valide',
       description: 'Un grand classique, déterminer si une grille de Sudoku remplie est valide ou pas',
     },
+    {
+      repo: 'quarkgluant/collier',
+      name: 'kata sur les chaînes de caractères, un peu comme des anagrammes',
+      description: 'Imaginez un collier avec des perles gravées qui peuvent glisser le long d\'une chaine. Quels mots peut on former ainsi ?',
+    },
   ],
   intermediate: [
     {
