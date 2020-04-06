@@ -153,6 +153,11 @@ export default {
       name: 'Battleship',
       description: 'Utiliser Ruby pour implementer le jeu classique Bataille navale!',
     },
+    {
+      repo: 'quarkgluant/solve-sudoku',
+      name: 'Remplir une grille de Sudoku',
+      description: 'Un grand classique du backtracking, résoudre une grille de Sudoku',
+    },
   ],
   expert: [
     {
